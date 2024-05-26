@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* prakt1 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.icon{
+
+}
+.menyu{
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+} */
+.font{
+    width: 100%;
+    height: 400px;
+    background-image: url(./IMAGE\ \(10\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* padding-top: 200px; */
+    
+    
+}
+input{
+    outline: none;
+    o
+}

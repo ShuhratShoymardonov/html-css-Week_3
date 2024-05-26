@@ -1,0 +1,70 @@
+/* input::placeholder{
+    color: red;
+}
+input{
+    border-top: none;
+    outline: none;
+    } */
+*{
+    margin: 0;padding: 0;
+}
+.main{
+    width: 80%;
+    margin: 100px;
+    border: 3px solid black;
+    height: 400px;
+    margin-bottom: 1000px;
+}
+.item{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.item1{
+    background-color: aqua;
+    /* position: relative;
+   right:150px; */
+}
+.item2{
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    /* top: 10px;
+    left: 150px;
+    transition: 3s;
+    transition: 3s; */
+
+    /* position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0px; */
+
+
+    /* position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%; */
+
+
+    /* position: sticky;
+
+    top: 10px; */
+
+}
+.item3{
+    background-color: blue;
+    /* position: relative;
+    right: 150px; */
+    position: relative;
+    z-index: 2;
+}
+/* .item3:hover{
+    /* position: relative;
+    width: 100%;
+    left: 80px;
+    transition: 10s; */
+

@@ -1,0 +1,32 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    width: 45%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 1000px;
+
+}
+.a1{
+    background-color: black;
+}
+.a2{
+    background-color: red;
+}
+@media (max-width:500px){
+   body{
+    flex-direction: column;
+    align-items: center;
+    }
+    .a2{
+    margin-top: 50px;
+    
+
+    }
+}

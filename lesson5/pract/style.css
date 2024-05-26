@@ -1,0 +1,225 @@
+*{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+}
+.menyu{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(43, 59, 55, 1);  
+    width: 100%;
+}
+.menyu img{
+    width: 120px;
+    height: 40px;
+    margin: auto 20px;
+}
+.box1 a{
+    font-size:25px;
+    text-decoration: none;
+    color:#fff;
+    margin: auto 40px;
+    font-weight: 0;
+    color: 
+    rgb(223, 223, 223);
+}
+.icon{
+    text-align: right;
+    font-size: 20px;
+    margin: 20px 30px;
+    color:rgba(100, 104, 103, 1);
+}
+.icon i{
+    margin: auto 5px;
+}
+.t1{
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+.body1{
+    margin-top: 30px;
+    background-image: url(./Rectangle\ 7.png);
+    /* margin-bottom: 100px; */
+}
+.contener1{
+    height: 300px;
+    background-color: rgba(100, 104, 103, 0.62);
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    padding: 70px 50px;
+    font-family: sans-serif;
+} 
+.nukta{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.body2{
+    text-align: center;
+    margin-top: 50px;
+}
+.contener2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box2{
+    margin-top: 50px;
+    width: 20%;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+}
+.box2 .a2{
+    margin-top: 30px;
+}
+.box2 .i2{
+    margin-top: 30px;
+}
+.text2{
+    text-align: center;
+    margin: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.body3{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px 40px;
+    background-color:rgba(43, 59, 55, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.tex1{
+    width: 25%;
+    color: #fff;
+    
+}
+.tex1 p{
+    margin-top: 50px;
+    line-height: 30px;
+    text-align:justify;
+    font-weight: 100;
+    /* letter-spacing: 40px; */
+
+}
+.tex2{
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    padding:  80px ;
+}
+.text3{
+    margin: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+.text3 h2{
+    font-weight: 100;
+    margin-right: 20px;
+    /* letter-spacing: 0px; */
+
+}
+.i3{
+    width: 90%;
+    margin-left: 50px;
+}
+.buton{
+    padding: 10px 60px;
+    font-size: 20px;
+    border: 2px solid rgba(43, 59, 55, 1);
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    border-color: rgba(43, 59, 55, 1);
+    background-color: transparent;
+}
+form{
+    width: 30%;
+    /* color: #fff; */
+}
+.input{
+    padding: 10px;
+    margin-right: 20px;
+    /* background-color: aqua; */
+    border-bottom: 0.5px solid rgb(214, 214, 214);
+    display: flex;
+}
+.input input{
+    background-color: transparent;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100; 
+    /* font-family: ;    */
+    /* w300px */
+}
+.input p{
+    font-weight: 100;
+}
+.input p{
+    color: rgba(255, 255, 255, 1);
+    font-family:  Medium', 'Arial  Arial, sans-serif;
+    font-weight:100;
+    background-color: transparent;
+}
+
+input::placeholder{
+    background-color: transparent;
+}
+.icon2, .te2{
+    color: #fff;
+    font-weight: 100;
+}
+.icon2 i{
+    margin: auto 5px;
+}
+.menyu2{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(43, 59, 55, 1); 
+    padding: 15px 0;
+    width: 100%;
+}
+.menyu2 img{
+    width: 120px;
+    height: 40px;
+    margin: auto 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    
+}
+.img_nav{
+    width: 350px;
+    margin-left: 50px;
+    display: flex;flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav p{
+    margin-left: 50px;
+    font-size: 13px;
+    color: #686767;
+
+}
+
+
+
+
+
